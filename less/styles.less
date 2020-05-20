@@ -1,0 +1,99 @@
+@import url(elements.less);
+@import url(media.less);
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../font/Avenir-Roman.ttf');
+    src: local('Avenir Roman'), local('Avenir-Roman'),
+        url('../font/Avenir-Roman.ttf') format('truetype'),
+        url('../font/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../font/Avenir-Roman.woff2') format('woff2'),
+        url('../font/Avenir-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../font/Avenir-Heavy.ttf');
+    src: local('Avenir Heavy'), local('Avenir-Heavy'),
+        url('../font/Avenir-Heavy.ttf') format('truetype'),
+        url('../font/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/Avenir-Heavy.woff2') format('woff2'),
+        url('../font/Avenir-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../font/HelveticaRegular.ttf');
+    src: local('Helvetica Regular'), local('HelveticaRegular'),
+        url('../font/HelveticaRegular.ttf') format('truetype'),
+        url('../font/HelveticaRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/HelveticaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface');
+
+html, body {
+	font-size: 16px;
+	margin: 0;
+	background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+	overflow-x: hidden;
+}
+
+header {
+	margin: 50px 15rem 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main {
+	margin-left: 15rem;
+	padding-bottom: 7rem;
+	position: relative;
+	max-width: 1352px;
+}
+
+nav {
+	width: 322px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about {
+	background: rgba(240, 99, 184, 0.15);
+	border-radius: 50px;
+	margin: 6rem 15rem 9.375rem;
+	display: flex;
+	max-width: 1170px;
+	align-items: center;
+}
+
+.features {
+	max-width: 1138px;
+	margin: 0 auto;
+}
+
+.testimonials {
+	margin: 8rem 0 9.375rem 15rem;
+	max-width: 1118px;
+	background: #9C69E2;
+	border-radius: 50px;
+}
+
+hr {
+	margin: 0;
+	background: #9C69E2;
+	opacity: 0.2;
+}
+
+footer {
+	max-width: 1117px;
+	margin: 6.25rem 0 0 15rem;
+}

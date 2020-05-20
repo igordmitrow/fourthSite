@@ -1,0 +1,1 @@
+s = new Slider(2);
